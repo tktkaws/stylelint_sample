@@ -1,0 +1,8 @@
+body {
+  color: red;
+}
+
+/* Stylelintが正しく動作すると、セレクターの重複でエラーとなる */
+body {
+  color: blue;
+}
